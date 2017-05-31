@@ -1,0 +1,60 @@
+#l10n-sidebar {
+  background-color: rgba(6, 120, 190, 0.05);
+  position: relative;
+  width: 1240px;
+  padding-right: 300px;
+  font-family: "Lucida Grande","DejaVu Sans","Bitstream Vera Sans",Verdana,Arial,sans-serif;
+}
+#l10n-sidebar-container {
+  position: absolute;
+  width: 300px;
+  height: 100%;
+  top: 0;
+  right: 0;
+}
+#l10n-content thead {
+  background-color: rgba(6, 120, 190, 0.05);
+}
+#l10n-content thead th {
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 400;
+}
+.sticky-header thead {
+  background-color: rgba(6, 120, 190, 0.1);
+}
+.sticky-header th:first-child {
+  width: 48.6% !important;
+}
+.sticky-header th {
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 400;
+  width: 100%;
+}
+.l10n-fixed {
+  background-color: rgba(6, 120, 190, 0.05);
+  position: fixed !important;
+  top:0;
+}
+#l10n-slide {
+  background-color: rgba(6, 120, 190, 0.05);
+  position: absolute;
+  width: 300px;
+  padding: 10px;
+}
+#l10n-slide h2 {
+}
+.l10n-block {
+  background-color: rgba(6, 120, 190, 0.05);
+  background-color: rgb(238, 238, 224);
+  background-color: rgb(255, 255, 255, .5);
+  padding: 10px;
+  margin: 10px 0 0 0;
+}
+.l10n-block .content {
+  overflow: auto;
+}
+.l10n-selected {
+  background-color: rgba(6, 120, 190, 0.05) !important;
+}

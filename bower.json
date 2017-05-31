@@ -1,0 +1,20 @@
+{
+  "name": "drupal-l10n",
+  "homepage": "https://github.com/sanduhrs/drupal-l10n-helper",
+  "authors": [
+    "Stefan Auditor <stefan.auditor@erdfisch.de>"
+  ],
+  "description": "Drupal L10n Helper",
+  "main": "webextension.js",
+  "license": "GPL",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.2.1"
+  }
+}
