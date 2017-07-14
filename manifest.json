@@ -1,15 +1,12 @@
 {
-
   "manifest_version": 2,
   "name": "Drupal L10n Helper",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Drupal L10n Helper",
   "homepage_url": "https://github.com/sanduhrs/drupal-l10n-helper",
-
   "icons": {
     "48": "icons/icon-48.png"
   },
-
   "content_scripts": [
     {
       "matches": [
@@ -31,5 +28,4 @@
     "webRequest",
     "storage"
   ]
-
 }
